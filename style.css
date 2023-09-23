@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+:root{
+    --bgcolor : #080e1c;
+    --textwhite : #fff;
+}
+
+.hero{
+    background: var(--bgcolor);
+    height: 100vh;
+}
+
+.hero header nav{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.hero header nav .logo {
+    color: var(--textwhite);
+    font-size: 35px;
+    font-weight: bolder;
+}
+.hero header nav .logo span{
+    color: #23a3fe;
+}
+.hero header nav .nav-links a{
+    color: var(--textwhite);
+    margin: 0 30px;
+    transition: 0.5s;
+}
+.hero header nav .nav-links a:hover{
+    color: #23a3fe;
+}
+
+
+.hero .container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: end;
+}
+
+.hero .container .div-text{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50%;
+}
+
+.hero .container .div-text h4{
+    color: #888;
+    font-size: 22px;
+}
+
+.hero .container .div-text h2 {
+    color: var(--textwhite);
+    font-size: 30px;
+    margin: 15px 0 10px;
+}
+.hero .container .div-text span{
+    color: #23a3fe;
+    font-size: 25px;
+    font-weight: bolder;
+    position: relative;
+}
+
+.hero .container .div-text .btn{
+    color: #fff;
+    background: #23a3fe;
+    padding: 15px 30px;
+    border: 1px solid #23a3fe;
+    position: relative;
+    top: 0;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.hero .container .div-text .btn:hover{
+    top: -8px;
+    box-shadow: 0 0 16px #23a3fe;
+}
